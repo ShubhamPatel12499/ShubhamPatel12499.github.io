@@ -1,4 +1,4 @@
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=abhitim &label=Profile%20views&color=0e75b6&style=flat" alt="abhitim" /> </p>
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=abhitim &label=Profile%20views&color=0e75b6&style=flat" alt="abhitim" /> </p>
 
 ![MasterHead](https://qph.fs.quoracdn.net/main-qimg-fa7b4bdc3b2f73e749e5c2c646d4ae13)
 
@@ -69,7 +69,7 @@
   
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /> 
   
-<img style="margin: 10px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" height="50"/>
+<img style="margin: 10px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" height="50"/> -->
 
 
 <!--    -->
