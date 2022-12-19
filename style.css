@@ -375,47 +375,52 @@ background-size: 10px 10px;
   border-radius: 5%;
   /* border: 5px solid rgb(20,180,220); */
   transition: all 0.3s ease;
+  padding: 5%;
 }
 
 #html_img img{
-  width:100%;
+  /* border: 1px solid red; */
+  width:90%;
   height:80%;
 }
 
 #js_img img{
   /* border: 1px solid red; */
-  width:100%;
+  width:90%;
   height:80%;
 }
 #css img{
-  width:100%;
+  /* border: 1px solid red; */
+  width:90%;
   height:80%;
 }
 
 #github_img img{
   /* border: 1px solid red; */
-  width:100%;
+  width:90%;
   height:80%;
 }
 
 #vsc img{
-  width:100%;
+  /* border: 1px solid red; */
+  width:90%;
   height:80%;
 }
 
 #react img{
-  width:100%;
+  /* border: 1px solid red; */
+  width:90%;
   height:80%;
 }
 
 #chakra img{
   /* border: 1px solid red; */
-  width:100%;
+  width:90%;
   height:80%;
 }
 #Redux img{
   /* border: 1px solid red; */
-  width:100%;
+  width:90%;
   height:80%;
 }
 .skills-images h3{
@@ -433,9 +438,11 @@ background-size: 10px 10px;
   margin: auto;
 }
 
-.skills-content img:hover{
+.skills-images img:hover{
+  padding: 0;
   width:100%;
   cursor: pointer;
+  height:90%;
 }
 
 /* skills right column */
