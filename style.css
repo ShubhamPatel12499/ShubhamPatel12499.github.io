@@ -1066,6 +1066,10 @@ footer span a:hover {
       text-align: center;
       align-items: center;
   }
+
+  .calendar{
+    padding: 0 5%;
+  }
 /* [10:23 pm, 27/09/2022] sujeet Bhai: <div class="calendar">
 
     <!-- this is the div where your calander will apear -->
