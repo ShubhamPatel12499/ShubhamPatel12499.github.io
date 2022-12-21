@@ -1074,7 +1074,9 @@ footer span a:hover {
   }
 
   .calendar{
-    padding: 0 5%;
+    /* padding: 0 5%; */
+    width:90%;
+    margin: auto;
   }
 /* [10:23 pm, 27/09/2022] sujeet Bhai: <div class="calendar">
 
