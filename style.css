@@ -829,9 +829,9 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
-  #stats{
+  /* #stats{
     width:70%;
-  }
+  } */
 }
 
 @media (max-width: 690px) {
@@ -849,30 +849,9 @@ footer span a:hover {
   }
   .services .serv-content .card {
     width: 100%;
-  }
-
-  .calendar{
-    width: 90%;
-    margin: auto;
-  }
-  #stats{
-    width: 70%;
-    margin: auto;
-    margin-top: 30px;
-  }
-
-  #statsdiv{
-    width: 70%;
-    margin: auto;
-  }
-  
-  #statsimg{
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-  
+  } 
 }
+
 @media screen and (min-width: 200px) and (max-width: 600px){
   #box7{
     width: 100%;
@@ -907,31 +886,6 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
-  }
-
-  
-  .calendar{
-    /* padding: 0 5%; */
-    width:90%;
-    margin: auto;
-  }
-
-  #stats{
-    width: 70%;
-    margin: auto;
-    margin-top: 30px;
-  }
-
-  #statsdiv{
-    width: 100%;
-    margin: auto;
-  
-  }
-  
-  #statsimg{
-    width: 100%;
-    display: block;
-    margin: auto;
   }
 }
 
@@ -1129,9 +1083,9 @@ footer span a:hover {
   }
 
   #stats{
-    width: 70%;
+    width: 50%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   #statsdiv{
@@ -1145,136 +1099,11 @@ footer span a:hover {
     display: block;
     margin: auto;
   }
-/* [10:23 pm, 27/09/2022] sujeet Bhai: <div class="calendar">
 
-    <!-- this is the div where your calander will apear -->
-
-</div>
-
-<div class="box7" id="box7">
-
-
-
-
-    <div>
-  <div class="pieContainer">
-    <div class="pieBackground">
-    </div>
-    <div id="pieSlice99_1" class="hold">
-      <div class="danny Col1">
-      </div>
-    </div>
-    <div id="pieSlice99_2" class="hold">
-      <div class="danny Col1">
-      </div>
-    </div>
-    <div class="stat-circle-cover">  
-        <span class="stat-number">
-          1200+
-        </span>
-    </div>
-  </div>
-  Hours <br>
-  of full stack coading
-</div>
-
-
-
-  <div>
-  <div class="pieContainer">
-    <div class="pieBackground">
-    </div>
-    <div id="pieSlice99_1" class="hold">
-      <div class="danny Col2">
-      </div>
-    </div>
-    <div id="pieSlice99_2" class="hold">
-      <div class="danny Col2">
-      </div>
-    </div>
-    <div class="stat-circle-cover">  
-        <span class="stat-number">
-          240+
-        </span>
-    </div>
-  </div>
-  Hackerrank <br>
-  problems
-</div>
-
-
-
-<div>
-  <div class="pieContainer">
-    <div class="pieBackground">
-    </div>
-    <div id="pieSlice99_1" class="hold">
-      <div class="danny Col3">
-      </div>
-    </div>
-    <div id="pieSlice99_2" class="hold">
-      <div class="danny Col3">
-      </div>
-    </div>
-    <div class="stat-circle-cover">  
-        <span class="stat-number">
-          210+
-        </span>
-    </div>
-  </div>
-  Git <br>
-  commits
-</div>
-
-
-
-<div>
-  <div class="pieContainer">
-    <div class="pieBackground">
-    </div>
-    <div id="pieSlice99_1" class="hold">
-      <div class="danny Col4">
-      </div>
-    </div>
-    <div id="pieSlice99_2" class="hold">
-      <div class="danny Col4">
-      </div>
-    </div>
-    <div class="stat-circle-cover">  
-        <span class="stat-number">
-          20+
-        </span>
-    </div>
-  </div>
-  Projects <br>
-  DOne
-</div>
-
-
-
-<div>
-  <div class="pieContainer">
-    <div class="pieBackground">
-    </div>
-    <div id="pieSlice99_1" class="hold">
-      <div class="danny Col5">
-      </div>
-    </div>
-    <div id="pieSlice99_2" class="hold">
-      <div class="danny Col5">
-      </div>
-    </div>
-    <div class="stat-circle-cover">  
-        <span class="stat-number">
-          100+
-        </span>
-    </div>
-  </div>
-    Hours <br>
-    of soft skills    
-</div>
-
-
-
-
-</div> */
+ @media screen and (min-width: 320px) and (max-width: 650px) {
+  #stats{
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  } 
