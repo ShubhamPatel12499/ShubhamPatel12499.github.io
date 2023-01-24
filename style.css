@@ -830,7 +830,7 @@ footer span a:hover {
     margin-bottom: 35px;
   }
   #stats{
-    width: 70%;
+    width:70%;
   }
 }
 
@@ -855,15 +855,21 @@ footer span a:hover {
     width: 90%;
     margin: auto;
   }
+  #stats{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
   #statsdiv{
     width: 70%;
     margin: auto;
   }
   
   #statsimg{
-      width: 100%;
-      display: block;
-      margin: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
   }
   
 }
@@ -1122,7 +1128,7 @@ footer span a:hover {
     margin: auto;
   }
 
-  /* #stats{
+  #stats{
     width: 70%;
     margin: auto;
     margin-top: 50px;
@@ -1136,9 +1142,9 @@ footer span a:hover {
   
   #statsimg{
     width: 100%;
-       display: block;
-      margin: auto;
-  } */
+    display: block;
+    margin: auto;
+  }
 /* [10:23 pm, 27/09/2022] sujeet Bhai: <div class="calendar">
 
     <!-- this is the div where your calander will apear -->
