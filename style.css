@@ -333,7 +333,7 @@ background-size: 10px 10px;
   background: #111;
   content: "what i provide";
 }
-.services .serv-content .card {
+.services .serv-content .project-card {
   width: calc(33% - 20px);
   background: #222;
   text-align: center;
@@ -342,26 +342,26 @@ background-size: 10px 10px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.services .serv-content .card:hover {
+.services .serv-content .project-card:hover {
   /* background: rgb(20,180,220); */
   color: #555;
   /* change*/
 }
-.services .serv-content .card .box {
+.services .serv-content .project-card .box {
   transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box {
+.services .serv-content .project-card:hover .box {
   transform: scale(1.05);
 }
-.services .serv-content .card i {
+.services .serv-content .project-card i {
   font-size: 50px;
   color: rgb(20,180,220);
   transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i {
+.services .serv-content .project-card:hover i {
   color: #000;
 }
-.services .serv-content .card .text {
+.services .serv-content .project-card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -524,7 +524,7 @@ background-size: 10px 10px;
 .project .title::after {
   content: "see my work";
 }
-.project .carousel .card {
+.project .carousel .project-card {
   background: #222;
   border-radius: 6px;
   padding: 25px 35px;
@@ -532,23 +532,23 @@ background-size: 10px 10px;
   overflow: hidden;
   transition: all 0.3s ease;
 }
-.project .carousel .card:hover {
+.project .carousel .project-card:hover {
   /* background: rgb(112, 89, 94); */
   color: #000;
   color: rgba(255, 255, 255, 0.735);
   /* change */
 }
-.project .carousel .card .box {
+.project .carousel .project-card .box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
 }
-.project .carousel .card:hover .box {
+.project .carousel .project-card:hover .box {
   transform: scale(1.05);
 }
-.project .carousel .card .text {
+.project .carousel .project-card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -592,7 +592,7 @@ background-size: 10px 10px;
   font-weight: bolder;
 }
 
-.project .carousel .card img {
+.project .carousel .project-card img {
   height: 250px;
   width: 250px;
   object-fit: cover;
@@ -600,7 +600,7 @@ background-size: 10px 10px;
   /* border: 5px solid rgb(20,180,220); */
   transition: all 0.3s ease;
 }
-.project .carousel .card:hover img {
+.project .carousel .project-card:hover img {
   border-color: #fff;
   color: white;
 }
@@ -820,7 +820,7 @@ footer span a:hover {
   .about .about-content .right {
     flex: 100%;
   }
-  .services .serv-content .card {
+  .services .serv-content .project-card {
     width: calc(50% - 10px);
     margin-bottom: 20px;
   }
@@ -847,7 +847,7 @@ footer span a:hover {
   .home .home-content a {
     font-size: 20px;
   }
-  .services .serv-content .card {
+  .services .serv-content .project-card {
     width: 100%;
   } 
 }
