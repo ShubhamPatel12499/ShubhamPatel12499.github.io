@@ -361,7 +361,7 @@ background-size: 10px 10px;
 .services .serv-content .project-card:hover i {
   color: #000;
 }
-.services .serv-content .project-card .text {
+.services .serv-content .project-card .project-title {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
@@ -548,7 +548,7 @@ background-size: 10px 10px;
 .project .carousel .project-card:hover .box {
   transform: scale(1.05);
 }
-.project .carousel .project-card .text {
+.project .carousel .project-card .project-title {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
