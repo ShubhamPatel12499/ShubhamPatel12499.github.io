@@ -90,7 +90,7 @@ section .title::after {
 }
 
 /* navbar styling */
-.navbar {
+#nav-menu {
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -98,11 +98,11 @@ section .title::after {
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
-.navbar.sticky {
+#nav-menu.sticky {
   padding: 15px 0;
   background: rgb(20,180,220);
 }
-.navbar .max-width {
+#nav-menu .max-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -110,24 +110,24 @@ section .title::after {
 
 
 
-.navbar .logo a {
+#nav-menu .logo a {
   color: #fff;
   font-size: 35px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
 }
-.navbar .logo a span {
+#nav-menu .logo a span {
   color: rgb(20,180,220);
   transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span {
+#nav-menu.sticky .logo a span {
   color: #000;
 }
-.navbar .menu li {
+#nav-menu .menu li {
   list-style: none;
   display: inline-block;
 }
-.navbar .menu li a {
+#nav-menu .menu li a {
   display: block;
   color: #fff;
   font-size: 18px;
@@ -135,17 +135,17 @@ section .title::after {
   margin-left: 25px;
   transition: color 0.3s ease;
 }
-.navbar .menu li a:hover {
+#nav-menu .menu li a:hover {
   color: rgb(20,180,220);
 }
 
 
 
 
-.navbar.sticky .menu li a:hover {
+#nav-menu.sticky .menu li a:hover {
   color: #fff;
 }
-.navbar.sticky .menu li a{
+#nav-menu.sticky .menu li a{
   color: #000;
 }
 /* menu btn styling */
@@ -774,7 +774,7 @@ footer span a:hover {
   .menu-btn i.active:before {
     content: "\f00d";
   }
-  .navbar .menu {
+  #nav-menu .menu {
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -785,13 +785,13 @@ footer span a:hover {
     padding-top: 80px;
     transition: all 0.3s ease;
   }
-  .navbar .menu.active {
+  #nav-menu .menu.active {
     left: 0;
   }
-  .navbar .menu li {
+  #nav-menu .menu li {
     display: block;
   }
-  .navbar .menu li a {
+  #nav-menu .menu li a {
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
@@ -1082,7 +1082,7 @@ footer span a:hover {
     margin: auto;
   }
 
-  #stats{
+  #github-stats-card{
     width: 50%;
     margin: auto;
     /* margin-top: 30px; */
@@ -1101,7 +1101,7 @@ footer span a:hover {
   }
 
  @media screen and (min-width: 320px) and (max-width: 650px) {
-  #stats{
+  #github-stats-card{
     width: 65%;
     margin: auto;
     margin-top: 30px;
