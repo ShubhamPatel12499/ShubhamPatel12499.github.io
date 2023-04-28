@@ -268,10 +268,10 @@ background-size: 10px 10px;
   content: "who I am";
  
 }
-.about .about-content .left {
+.about .about-content .home-img {
   width: 45%;
 }
-.about .about-content .left img {
+.about .about-content .home-img img {
   /* height: 400px;
   width: 400px;
   object-fit: cover;
@@ -755,7 +755,7 @@ footer span a:hover {
 
 /* responsive media query start */
 @media (max-width: 1104px) {
-  .about .about-content .left img {
+  .about .about-content .home-img img {
     height: 350px;
     width: 350px;
   }
@@ -812,7 +812,7 @@ footer span a:hover {
   .about .about-content .column {
     width: 100%;
   }
-  .about .about-content .left {
+  .about .about-content .home-img {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
