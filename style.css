@@ -369,7 +369,7 @@ background-size: 10px 10px;
 
 /* skills section styling */
 
-.skills-images img {
+.skills-card img {
   box-sizing: border-box;
   /* object-fit: cover; */
   border-radius: 5%;
@@ -423,7 +423,7 @@ background-size: 10px 10px;
   width:90%;
   height:80%;
 }
-.skills-images h3{
+.skills-card h3{
    text-align: center;
 }
 .skills .title::after {
@@ -438,7 +438,7 @@ background-size: 10px 10px;
   margin: auto;
 }
 
-.skills-images img:hover{
+.skills-card img:hover{
   padding: 0;
   width:100%;
   cursor: pointer;
@@ -625,7 +625,7 @@ background-size: 10px 10px;
 .owl-dot:hover {
   background: rgb(20,180,220) !important;
 }
-.skills-images {
+.skills-card {
   width: 120px;
   height: 120px;
 }
