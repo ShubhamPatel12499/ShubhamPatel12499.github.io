@@ -1082,7 +1082,7 @@ footer span a:hover {
     margin: auto;
   }
 
-  #github-streak-stats{
+  #gstats{
     width: 50%;
     margin: auto;
     /* margin-top: 30px; */
@@ -1101,7 +1101,7 @@ footer span a:hover {
   }
 
  @media screen and (min-width: 320px) and (max-width: 650px) {
-  #github-streak-stats{
+  #gstats{
     width: 65%;
     margin: auto;
     margin-top: 30px;
