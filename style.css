@@ -1082,6 +1082,8 @@ footer span a:hover {
     margin: auto;
   }
 
+  /* streaks */
+
   #gstats{
     width: 50%;
     margin: auto;
@@ -1089,11 +1091,20 @@ footer span a:hover {
   }
 
   #statsdiv{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin: auto;
+    gap:40px;
   
   }
   
+  #github-stats-card{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
   #github-streak-stats{
     width: 100%;
     display: block;
@@ -1107,3 +1118,51 @@ footer span a:hover {
     margin-top: 30px;
   }
   } 
+
+  /* languages */
+  
+  #github-langs {
+    margin: auto;
+    margin-top: 80px;
+    width: 75%;
+    text-align: center;
+  }
+  
+  #github-top-langs {
+    width: 35%;
+  }
+  
+  @media all and (min-width: 721px) and (max-width: 1024px) {
+  
+    #github-langs {
+      margin-top: 45px;
+      width: 100%;
+    }
+  }
+  
+  @media all and (min-width: 480px) and (max-width: 720px) {
+  
+    #github-langs {
+      text-align: center;
+      min-height: 0px;
+      margin-top: 50px;
+      width: 100%;
+    }
+  
+    #github-top-langs {
+      width: 50%;
+    }
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 479px) {
+  
+    #github-langs {
+      min-height: 0px;
+      margin-top: 30px;
+      width: 85%;
+    }
+  
+    #github-top-langs {
+      width: 65%;
+    }
+  }
