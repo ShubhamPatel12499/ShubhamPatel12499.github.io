@@ -90,7 +90,7 @@ section .title::after {
 }
 
 /* navbar styling */
-/* #nav-menu {
+#nav-menu {
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -147,11 +147,11 @@ section .title::after {
 }
 #nav-menu.sticky .menu li a{
   color: #000;
-} */
+}
 
 
 
-#nav-menu {
+/* #nav-menu {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
@@ -196,7 +196,7 @@ section .title::after {
 
 #navbar11 > div > a:hover {
   color: white;
-}
+} */
 
 
 /* menu btn styling */
