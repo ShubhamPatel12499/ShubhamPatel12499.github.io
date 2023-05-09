@@ -90,7 +90,7 @@ section .title::after {
 }
 
 /* navbar styling */
-#nav-menu {
+/* #nav-menu {
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -147,7 +147,58 @@ section .title::after {
 }
 #nav-menu.sticky .menu li a{
   color: #000;
+} */
+
+
+
+#nav-menu {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  font-family: lato, sans-serif;
+  position: fixed;
+  top: 0;
+  background-color: rgb(24, 21, 21);
 }
+
+#navbar11 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+#navbar11 > div > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#navbar11 > div {
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: #039be5;
+}
+
+#navbar11 > div:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255, 254, 254, 0.75);
+}
+
+#nav-menu > div {
+  color: white;
+  font-size: 20px;
+}
+
+#navbar11 > div > a:hover {
+  color: white;
+}
+
+
 /* menu btn styling */
 .menu-btn {
   color: #fff;
